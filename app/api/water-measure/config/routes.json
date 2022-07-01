@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/water-measures",
+      "handler": "water-measure.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-measures/count",
+      "handler": "water-measure.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/water-measures/:id",
+      "handler": "water-measure.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/water-measures",
+      "handler": "water-measure.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/water-measures/:id",
+      "handler": "water-measure.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/water-measures/:id",
+      "handler": "water-measure.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

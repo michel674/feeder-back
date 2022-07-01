@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "water_measures",
+  "info": {
+    "name": "water_measure"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "measure": {
+      "type": "string"
+    }
+  }
+}

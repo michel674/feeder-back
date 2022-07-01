@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "meals",
+  "info": {
+    "name": "meal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "time": {
+      "type": "datetime"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
